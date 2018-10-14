@@ -10,9 +10,17 @@
       $ctrl.newPost = function() {
         $ctrl.posts.push ({title: $ctrl.newTitle, thought: $ctrl.newThought});
         $ctrl.newpost = '';
-    
       }
-   });
+        
+     $ctrl.toggleSelect = (newPost) => {
+          newPost.completed = !newPost.completed;
+      }
+
+      // $ctrl.toggle = function() {
+      //     vm.newPostBlueBox = !newPostBlueBox.newPostBlueBox;
+      // };
+
+      });
  }  
 
 
