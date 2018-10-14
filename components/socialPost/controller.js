@@ -8,7 +8,7 @@
       ]
 
       $ctrl.newPost = function() {
-        $ctrl.posts.push ({title: $ctrl.newTitle, thought: $ctrl.newThought});
+        $ctrl.posts.push ({title: $post.newTitle, thought: $post.newThought});
         $ctrl.newpost = '';
       }
         
