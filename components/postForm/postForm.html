@@ -1,0 +1,13 @@
+<!-- <li>{{$ctrl.item}} - {{$ctrl.name}} <button ng-click="$ctrl.onClick($ctrl.item)">Select</button></li> -->
+
+<form>
+    <div class="innerForm">
+        <p class="title">Title</p>
+        <input type="text" placeholder="post title" ng-model="title" />
+
+        <p class="thought">Thought</p>
+        <input type="text" placeholder="What are your thoughts?" ng-model="thought"/>
+
+        <button ng-click="$ctrl.newPost()" class="add">Add Post</button>
+    </div>
+</form>

@@ -1,0 +1,17 @@
+h1 {
+ font-family: 'Cedarville Cursive', cursive;
+ color: teal;
+}
+
+form {
+ width: 60%;
+ display: flex;
+ text-align: center;
+}
+
+.innerForm {
+ background-color: skyblue;
+ width: 50%;
+justify-content: center;
+padding: 5px gray;
+}
