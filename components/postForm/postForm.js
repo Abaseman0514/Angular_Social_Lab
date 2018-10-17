@@ -7,6 +7,5 @@ const postForm = {
     templateUrl: "components/postForm/postForm.html"
 };
 
-angular
-    .module("app")
+angular.module("app")
     .component("postForm", postForm);

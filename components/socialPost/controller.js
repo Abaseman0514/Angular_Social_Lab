@@ -1,8 +1,8 @@
 "use strict"; {
   angular.module('app')
     .controller('SocialController', function () {
-        const $ctrl = this;
-        $ctrl.posts = [{
+      const $ctrl = this;
+      $ctrl.posts = [{
           title: "Dog",
           thought: "Peacocks baa ostriches owls. Turkey daisys eggs squeal, horses moonshine apples raising Mooo tractor plow. Sage mower goat, raccoons rhubarb outhouse"
         },
@@ -35,17 +35,16 @@
         $ctrl.posts.splice(index, 1);
       }
 
-        $ctrl.newPost = function () {
-          $ctrl.posts.push({
-            title: $post.newTitle,
-            thought: $post.newThought
-          });
-          $ctrl.newTitle = '';
-        }
+      $ctrl.newPost = function () {
+        $ctrl.posts.push({
+          title: $post.newTitle,
+          thought: $post.newThought
+        });
+        $ctrl.newTitle = '';
+      }
 
-        $ctrl.toggleSelect = (newPost) => {
-          newPost.completed = !newPost.completed;
-        }
-      
-      });
-    }
+      $ctrl.toggleSelect = (newPost) => {
+        newPost.completed = !newPost.completed;
+      }
+    });
+}

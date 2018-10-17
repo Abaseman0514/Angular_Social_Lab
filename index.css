@@ -2,7 +2,7 @@ body {
  font-family: 'Dosis', sans-serif;
  background-color: #f3f1f7;
  display: flex;
- 
+
 }
 
 #title {
@@ -32,7 +32,11 @@ body {
  justify-content: center;
 }
 
-.thoughtContainer, textArea, button, form, input {
+.thoughtContainer,
+textArea,
+button,
+form,
+input {
  border: 1px solid black;
  border-radius: 5px;
 }
@@ -49,7 +53,7 @@ body {
 .myThoughts {
  display: flex;
  flex-direction: column;
- width:90%;
+ width: 90%;
  border-bottom: solid 3px #f3f1f7;
  padding: 10px;
  word-break: break-all;
@@ -58,6 +62,7 @@ body {
 h3 {
  margin: 0px;
 }
+
 .material-icons {
  float: right;
 }
@@ -74,7 +79,10 @@ form {
  margin-top: 20px;
 }
 
-label, textArea, button, input {
+label,
+textArea,
+button,
+input {
  margin: 0% 6%;
 }
 
@@ -107,4 +115,3 @@ button {
  font-family: 'Dosis', sans-serif;
  cursor: pointer;
 }
-

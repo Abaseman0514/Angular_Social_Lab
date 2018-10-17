@@ -8,6 +8,5 @@ const post = {
     templateUrl: "components/post/post.html"
 };
 
-angular
-    .module("app")
+angular.module("app")
     .component("post", post);
