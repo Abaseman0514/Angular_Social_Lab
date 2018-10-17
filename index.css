@@ -14,7 +14,7 @@ body {
  color: rgb(3, 169, 244);
 }
 
-.maincontainer {
+.thoughtPage {
  display: flex;
  width: 100%;
  flex-direction: column;
@@ -23,7 +23,7 @@ body {
  align-content: center;
 }
 
-.buttonthought {
+.buttonThought {
  align-items: center;
  width: 70%;
  display: flex;
@@ -31,12 +31,12 @@ body {
  justify-content: center;
 }
 
-.listcontainer, textarea, button, form, input {
+.thoughtContainer, textArea, button, form, input {
  border: 1px solid black;
  border-radius: 5px;
 }
 
-.listcontainer {
+.thoughtContainer {
  width: 60%;
  background-color: white;
  display: flex;
@@ -45,7 +45,7 @@ body {
  margin-top: 2%
 }
 
-.thoughtItems {
+.myThoughts {
  display: flex;
  flex-direction: column;
  width:90%;
@@ -72,7 +72,7 @@ form {
  margin-top: 20px;
 }
 
-label, textarea, button, input {
+label, textArea, button, input {
  margin: 0% 6%;
 }
 
@@ -90,7 +90,7 @@ input {
  padding: 0px 3px;
 }
 
-textarea {
+textArea {
  display: flex;
  flex: 4;
  margin-bottom: 4%;
