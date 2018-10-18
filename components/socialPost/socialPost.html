@@ -9,6 +9,6 @@
  </post>
  </section>
 
- <post-form post-form="$ctrl.postForm(newThought);" ng-hide="$ctrl.toggleElements"></post-form>
+ <post-form post-form="$ctrl.postForm(newThought);" ng-if="!$ctrl.toggleElements"></post-form>
 
 </section>
